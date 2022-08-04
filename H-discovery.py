@@ -96,3 +96,4 @@ Hosts_list = get_host_list(Args[0],Args[1])
 
 #scanning
 live_hosts = scanner(Hosts_list)
+print(live_hosts)
